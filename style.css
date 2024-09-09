@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header, footer {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 200%;
+    padding: 1% 0;
+    margin-bottom: 0;
+}
+
+.MyName {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+} 
+.MyName:hover {
+    transform: translateY(-10px);
+}
+
+header {
+    font-size: 150%;
+    padding: 0.5% 0;
+    
+}
+
+.MainName {
+    margin-left: 4%;
+    font-style: italic;
+}
+
+.Depo {
+    background-color: rgb(49, 49, 49);
+    width: 55%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    border-radius: 30px;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    box-shadow: 30px 30px 100px black;
+}
+
+.Depo:hover {
+    transform: translateY(-10px);
+}
+
+.PlaceName {
+    color: aliceblue;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-style: italic;
+}
+
+.PlaceName1 {
+    color: aliceblue;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 30%;
+}
+
+#ChangeBack {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-left: 3%;
+    margin-top: 1%;
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 20px;
+
+}
+
+.DepoImg {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: -50%;
+    box-shadow: 30px 30px 100px black;
+}
