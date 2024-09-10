@@ -65,6 +65,20 @@ header {
     transform: translateY(-10px);
 }
 
+.DepoMap {
+    margin-left: 65%;
+    margin-top: 2%;
+    height: 35%;
+    width: 50%;
+    position: relative;
+}
+
+.DepoCake {
+    width: 40%;
+    height: 40%;
+    margin-left: 60%;
+}
+
 .PlaceName {
     color: aliceblue;
     margin-left: 5%;
@@ -95,7 +109,6 @@ header {
 
 .DepoImg {
     width: 50%;
-    height: 50%;
     border-radius: 20px;
     margin-left: 45%;
     margin-top: -50%;
