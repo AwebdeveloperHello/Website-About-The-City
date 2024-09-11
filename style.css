@@ -20,6 +20,7 @@ footer {
     font-size: 200%;
     padding: 1% 0;
     margin-bottom: 0;
+    margin-bottom: -1300px;
 }
 
 .MyName {
@@ -108,9 +109,37 @@ header {
 }
 
 .DepoImg {
-    width: 50%;
+    width: 520px;
     border-radius: 20px;
-    margin-left: 45%;
-    margin-top: -50%;
+    margin-left: 465px;
+    margin-top: -320px;
     box-shadow: 30px 30px 100px black;
+}
+
+#BackGroundMain {
+    background-color: rgb(20, 20, 20);
+}
+
+.MoscowCity {
+    background-color: rgb(49, 49, 49);
+    width: 55%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 42%;
+    position: absolute;
+    border-radius: 30px;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    box-shadow: 30px 30px 100px black;
+}
+
+.MoscowTowers {
+    width: 520px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 80px;
 }

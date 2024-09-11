@@ -25,7 +25,7 @@ if (storedColor) {
 
 button.addEventListener('click', () => {
     const currentColor = body.style.backgroundColor;
-    const newColor = currentColor === 'white' ? 'rgb(20, 20, 20)' : 'white';
+    const newColor = currentColor === 'rgb(20, 20, 20)' ? 'white' : 'rgb(20, 20, 20)';
 
     body.style.backgroundColor = newColor;
     localStorage.setItem('backgroundColor', newColor); // Save the new color
