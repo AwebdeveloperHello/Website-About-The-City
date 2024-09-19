@@ -48,7 +48,7 @@ header {
 .Depo {
     background-color: rgb(49, 49, 49);
     width: 55%;
-    height: 60%;
+    height: 64%;
     margin-top: 5%;
     margin-left: 5%;
     position: absolute;
@@ -68,6 +68,14 @@ header {
 
 .DepoMap {
     margin-left: 65%;
+    margin-top: 2%;
+    height: 35%;
+    width: 50%;
+    position: relative;
+}
+
+.DepoMap1 {
+    margin-left: 60%;
     margin-top: 2%;
     height: 35%;
     width: 50%;
@@ -123,7 +131,7 @@ header {
 .MoscowCity {
     background-color: rgb(49, 49, 49);
     width: 55%;
-    height: 60%;
+    height: 70%;
     margin-top: 10%;
     margin-left: 42%;
     position: absolute;
