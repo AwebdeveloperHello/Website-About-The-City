@@ -28,6 +28,7 @@ footer {
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    font-style: italic;
 
 } 
 .MyName:hover {
@@ -42,11 +43,11 @@ header {
 
 .MainName {
     margin-left: 4%;
-    font-style: italic;
+    font-style: oblique;
 }
 
 .Depo {
-    background-color: rgb(49, 49, 49);
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(190, 130, 0));
     width: 55%;
     height: 64%;
     margin-top: 5%;
@@ -138,7 +139,7 @@ header {
 }
 
 .MoscowCity {
-    background-color: rgb(49, 49, 49);
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 190, 180));
     width: 55%;
     height: 70%;
     margin-top: 10%;
@@ -172,4 +173,27 @@ header {
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+
+.audio1 {
+    margin-top: -3%;
+    margin-left: 55%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.audio4 {
+    margin-top: -3%;
+    margin-left: 75%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#Cube {
+    width: 50px;
+    height: 50px;
+    margin-left: 14%;
+    margin-top: -3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
 }

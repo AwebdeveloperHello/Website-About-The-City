@@ -30,3 +30,29 @@ button.addEventListener('click', () => {
     body.style.backgroundColor = newColor;
     localStorage.setItem('backgroundColor', newColor); // Save the new color
 });
+
+
+// Turn of one music, when another one is playing.
+const audioElements = document.querySelectorAll('audio');
+
+audioElements.forEach(audio => {
+  audio.addEventListener('play', () => {
+    audioElements.forEach(otherAudio => {
+      if (otherAudio !== audio) {
+        otherAudio.pause();
+      }
+    });
+  });
+});
+
+// Rotating cube
+
+let angle = 0;
+
+const div = document.getElementById("Cube");
+window.setInterval(rotate, 20);
+
+function rotate() {
+    div.style.transform = `rotate(${angle}deg)`;
+    angle += 1;
+}
