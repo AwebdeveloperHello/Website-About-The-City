@@ -197,3 +197,21 @@ header {
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
 }
+
+
+.Books {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(196, 108, 204));
+    width: 55%;
+    height: 64%;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    border-radius: 30px;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    box-shadow: 30px 30px 100px black;
+}
