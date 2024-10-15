@@ -251,3 +251,12 @@ header {
 }
 
 
+.tippy-box[data-theme~='text-properties'] {
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(40, 16, 43));
+    border-radius: 12px;
+    
+}
+

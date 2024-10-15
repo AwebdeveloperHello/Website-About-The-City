@@ -1,3 +1,28 @@
+// Cake mode
+
+tippy('#CakeModel',  {
+  content: 'Cake!',
+  placement: 'bottom',
+  theme: "text-properties"
+
+});
+
+tippy('#EdificeModel',  {
+  content: 'Tower!',
+  placement: 'bottom',
+  theme: "text-properties"
+
+});
+
+tippy('#ClownModel',  {
+  content: 'Clown!',
+  placement: 'bottom',
+  theme: "text-properties"
+
+});
+
+
+
 function updateClock() {
     
     
