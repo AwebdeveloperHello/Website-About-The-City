@@ -19,9 +19,9 @@ footer {
     font-size: 200%;
     padding: 1% 0;
     margin-bottom: 0;
-    margin-bottom: -500px;
+    margin-bottom: -3000px;
     position: absolute;
-    width: 210%;
+    width: 120%;
     margin-left: -20%;
 }
 
@@ -227,15 +227,20 @@ header {
 }
 
 .ClownImg {
-    width: 80%;
-    height: 140%;
-    margin-left: 105%;
-    margin-top: -90%;
+    position: absolute;
+    width: 740px;
+    border-radius: 20px;
+    margin-left: 465px;
+    margin-top: 1000px;
 
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+
+.ClownImg:hover {
+    transform: translateY(-10px);
 }
 
 .DepoMap {
@@ -260,3 +265,49 @@ header {
     
 }
 
+.Galery {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 190, 57));
+    width: 55%;
+    height: 70%;
+    margin-top: 55%;
+    margin-left: 42%;
+    
+    border-radius: 30px;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    box-shadow: 30px 30px 100px black;
+}
+
+
+.Painting {
+    width: 620px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -550px;
+    position: absolute;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.DepoMap2 {
+    margin-left: 45%;
+    margin-top: 2%;
+    height: 35%;
+    width: 50%;
+    position: relative;
+}
+
+.Galery:hover {
+    transform: translateY(-10px);
+}
+
+.Painting:hover {
+    transform: translateY(-10px);
+}

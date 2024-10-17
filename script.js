@@ -1,21 +1,28 @@
 // Cake mode
 
 tippy('#CakeModel',  {
-  content: 'Cake!',
+  content: 'Тортик',
   placement: 'bottom',
   theme: "text-properties"
 
 });
 
 tippy('#EdificeModel',  {
-  content: 'Tower!',
+  content: 'Башни Комплекса',
   placement: 'bottom',
   theme: "text-properties"
 
 });
 
 tippy('#ClownModel',  {
-  content: 'Clown!',
+  content: 'Книга Оно',
+  placement: 'bottom',
+  theme: "text-properties"
+
+});
+
+tippy('#GaleryModel',  {
+  content: 'Картина Три Богатыря',
   placement: 'bottom',
   theme: "text-properties"
 
