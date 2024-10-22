@@ -88,3 +88,17 @@ function rotate() {
     div.style.transform = `rotate(${angle}deg)`;
     angle += 1;
 }
+
+const jsFrame = new JSFrame();
+const frame = jsFrame.create({
+    title: 'Оптимизация',
+    left: 20, top: 20, width: 320, height: 220,
+    movable: true,//Enable to be moved by mouse
+    resizable: true,//Enable to be resized by mouse
+    html: '<div id="my_element" style="padding:10px;font-size:12px;color:darkgray;">Если сайт выглядит плохо/некорректно, используйте сочитание клавиш Ctrl+Shift+ -/+, чтобы менять размер экрана.</div>',
+});
+
+
+function ShowClue() {
+  frame.show();
+}

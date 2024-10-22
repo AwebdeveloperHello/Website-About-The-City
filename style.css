@@ -155,6 +155,20 @@ header {
 
 }
 
+#ShowTip {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 47%;
+    margin-top: -3%;
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 20px;
+
+}
+
 .DepoImg {
     width: 520px;
     border-radius: 20px;
