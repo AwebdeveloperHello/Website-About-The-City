@@ -102,3 +102,24 @@ const frame = jsFrame.create({
 function ShowClue() {
   frame.show();
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const loadingProgress = document.querySelector(".loading-progress");
+  const percentText = document.getElementById("percent");
+
+  let percent = 0;
+  const interval = setInterval(function() {
+      percent++;
+      loadingProgress.style.width = percent + "%";
+      percentText.textContent = percent + "%";
+
+      if (percent >= 100) {
+          clearInterval(interval);
+          setTimeout(function() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("content").style.display = "block";
+          }, 100);
+      }
+  }, 15); // Adjusting interval time for smooth 0 to 100% progress in 3 seconds
+});
