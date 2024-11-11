@@ -121,5 +121,5 @@ document.addEventListener("DOMContentLoaded", function() {
               document.getElementById("content").style.display = "block";
           }, 100);
       }
-  }, 15); // Adjusting interval time for smooth 0 to 100% progress in 3 seconds
+  }, 15);
 });
