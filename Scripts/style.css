@@ -169,11 +169,47 @@ header {
 
 }
 
+#ShowTip2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 47%;
+    margin-top: -3%;
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 20px;
+
+}
+
+#ChangeLanguage {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 43%;
+    margin-top: -3%;
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 20px;
+
+}
+
 .DepoImg {
     width: 520px;
     border-radius: 20px;
     margin-left: 465px;
     margin-top: -250px;
+    box-shadow: 30px 30px 100px black;
+}
+
+.DepoImg2 {
+    width: 520px;
+    border-radius: 20px;
+    margin-left: 465px;
+    margin-top: -210px;
     box-shadow: 30px 30px 100px black;
 }
 
@@ -184,6 +220,16 @@ header {
     margin-top: -500px;
     box-shadow: 30px 30px 100px black;
     position: absolute;
+}
+
+.GaleryImg2 {
+    width: 520px;
+    border-radius: 20px;
+    margin-left: 465px;
+    margin-top: -500px;
+    margin-bottom: 100px;
+    box-shadow: 30px 30px 100px black;
+   
 }
 
 .Towers {

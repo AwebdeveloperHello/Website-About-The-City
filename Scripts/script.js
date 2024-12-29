@@ -1,7 +1,7 @@
 // Cake mode
 
 tippy('#CakeModel',  {
-  content: 'Тортик',
+  content: 'Торт из Дэпо',
   placement: 'bottom',
   theme: "text-properties"
 
