@@ -372,6 +372,22 @@ header {
     
 }
 
+#HiddenImg {
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+#SecretButton {
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.TheSecretCreator {
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
 .Galery {
     background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 190, 57));
     width: 55%;
