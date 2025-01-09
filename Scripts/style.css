@@ -591,6 +591,13 @@ header {
     #ChangeBack {
         font-size: 30px;
     }
+
+    #ChangeLanguage {
+        font-size: 24px;
+        margin-left: 39%;
+        margin-top: -5%;
+    
+    }
 }
 
 
