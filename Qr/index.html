@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <script src="JS-Files-Qr/QrGenerator.js" defer></script>
+    <script src="JS-Files-Qr/Source.js" defer></script>
+    <link rel="stylesheet" href="CSS-Files-Qr/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Main-Lofo-QrCode.png"/>
+</head>
+<body>
+    <div class="WebSite">
+        <h1>Просто введите ссылку :)</h1>
+        <input type="text" id="link" placeholder="Введите ссылку на сайт здесь.">
+        <button onclick="generateQRCode()" id="QrCreate">Создать QR Code</button>
+        <div id="qrcode"></div>
+        <button id="downloadBtn" onclick="downloadQRCode()">Скачать QR Code</button>
+    </div>
+</body>
+</html>
